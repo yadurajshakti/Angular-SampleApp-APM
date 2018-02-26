@@ -1,10 +1,10 @@
 import { Injectable } from "@angular/core";
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { IProduct } from "./product";
-import { Observable } from "rxjs/observable";
 import 'rxjs/add/observable/throw';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/do';
+import { Observable } from "rxjs/Observable";
 
 @Injectable()
 
